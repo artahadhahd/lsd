@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+mkdir -p bin/ build/ && cd build/
+cmake .. && cmake --build .
+mv ./lsd ../bin/
+echo "Built successfully. Binary in bin/"
