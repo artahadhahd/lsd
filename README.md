@@ -1,5 +1,5 @@
 # LSD Lisp Interpreter
-This is a tree walk interpreter of a Lisp-inspired language. Right now it can really basic stuff and it's not super fast but it works.
+This is a tree walk interpreter of a Lisp-inspired language. Right now it can really basic stuff and it's not super fast but it works. Under 600 LOC
 
 # Features
 - `if` - if statements

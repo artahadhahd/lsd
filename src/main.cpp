@@ -57,6 +57,7 @@ Tree::T Tree::eval(Environment& env) {
 struct Repl {
     Repl() = delete;
     static void loop() {
+        std::cout << "Welcome to the LSD REPL. \"quit\" or \"exit\" to terminate this REPL.\n";
         while (true) {
             std::cout << "(lsd) ";
             std::string in;
